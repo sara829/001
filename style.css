@@ -1,0 +1,35 @@
+p{
+width: 100%;
+height: 100vh;
+margin: 0;
+padding: 0;
+font-size: 12px;
+font-weight: 900;
+line-height: 12px;
+letter-spacing:-1px;
+color: transparent;
+background:url("https://media3.giphy.com/media/3bHcnxZNdCkXC/giphy.gif?cid=ecf05e47ad8110cf375c7269b3e9ee43b51d576a3759c466&rid=giphy.gif") no-repeat center center;
+background-size: contain;
+-webkit-background-clip: text;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: solid 10px #0088A8; 
+}
+
+body{
+  background-color:#FFFEEE;
+}
+
+.mask {
+  margin-top:80px;
+  width:100%;
+  height:400px;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSYZ0C9EGREUZhBJFNEAswineBo7H7qofVp8YApjd7uftvx2RSX&usqp=CAU);
+  -webkit-mask:
+    url(https://upload.wikimedia.org/wikipedia/commons/1/13/%E5%9C%8B%E7%AB%8B%E5%98%89%E7%BE%A9%E5%A4%A7%E5%AD%B8.png)no-repeat center/contain;
+}
