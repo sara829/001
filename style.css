@@ -18,10 +18,11 @@ background-size: contain;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: solid 10px #0088A8; 
+  
 }
 
 body{
+  border: solid 10px #0088A8; 
   background-color:#FFFEEE;
 }
 
@@ -32,4 +33,25 @@ body{
   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSYZ0C9EGREUZhBJFNEAswineBo7H7qofVp8YApjd7uftvx2RSX&usqp=CAU);
   -webkit-mask:
     url(https://upload.wikimedia.org/wikipedia/commons/1/13/%E5%9C%8B%E7%AB%8B%E5%98%89%E7%BE%A9%E5%A4%A7%E5%AD%B8.png)no-repeat center/contain;
+}
+
+.back{
+  background-color:rgba(255, 0, 0, 0.8) ;
+  border-radius:20px;
+  position:fixed;
+  left:85%;
+  top:80%;
+  width:180px;
+  height:100px;
+}
+.back:hover{
+  box-shadow:5px 5px 60px rgba(0,0,0,0.4);
+  transform:translate(-5px,-5px);
+  height:120px;
+  width:190px;
+}
+h1{
+position:absolute;
+top:25%;
+left:10%;
 }
